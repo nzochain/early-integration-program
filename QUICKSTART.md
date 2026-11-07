@@ -29,7 +29,7 @@ export NZOCHAIN_API_KEY="YOUR_NZOCHAIN_API_KEY"
 $env:NZOCHAIN_API_KEY = "YOUR_NZOCHAIN_API_KEY"
 ```
 
-Example `.env` (do not commit real values):
+Example `.env` (placeholders only — keep real keys out of version control):
 
 ```bash
 NZOCHAIN_API_KEY=YOUR_NZOCHAIN_API_KEY

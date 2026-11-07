@@ -8,7 +8,7 @@ X-API-Key: YOUR_NZOCHAIN_API_KEY
 
 This is **not** cookie session auth and **not** `Authorization: Bearer` on product v1 routes.
 
-Developer Portal project/key/webhook management uses a **separate developer session JWT** contract. Do not mix portal session auth with product API key auth.
+Developer Portal project/key/webhook management uses a **separate developer session JWT** contract. Product API calls use `X-API-Key`; portal management uses the developer session — keep these auth models separate.
 
 ---
 

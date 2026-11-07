@@ -19,14 +19,14 @@ Open an issue or pull request against https://github.com/nzochain/early-integrat
 
 ---
 
-## Rules
+## Contribution standards
 
 1. **No secrets.** Never include real API keys, tokens, passwords, `.env` values, private RPCs, customer logs or personal data.
 2. **Placeholders only.** Use values such as `YOUR_NZOCHAIN_API_KEY` and `0xYOUR_WALLET_ADDRESS`.
-3. **No proprietary code.** Do not submit NZOChain backend source, private configs or confidential architecture.
-4. **No invented APIs.** Endpoints, fields and plan gates must match https://docs.nzochain.com/ or be clearly marked pending.
-5. **No license grants.** Do not add an open-source license or claim reuse rights that have not been approved.
-6. **Examples ≠ SDK.** Do not publish packages that imply an official `@nzochain/sdk`.
+3. **Public documentation scope.** Contributions should stay within documentation and educational examples — not NZOChain backend source, private configs or confidential architecture.
+4. **Accurate APIs.** Endpoints, fields and plan gates must match https://docs.nzochain.com/ or be clearly marked pending.
+5. **Licensing.** This repository does not grant an open-source license in this phase; contributions should not add a LICENSE or claim reuse rights that have not been approved.
+6. **Examples are not an SDK.** Integration samples are educational REST examples. There is no official `@nzochain/sdk` package.
 
 ---
 

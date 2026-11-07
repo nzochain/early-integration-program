@@ -9,7 +9,7 @@ NZOChain scan and related EVM risk flows currently cover **four** networks.
 | Polygon | `polygon` |
 | Arbitrum | `arbitrum` |
 
-For transaction analyze, `chainId` is used (example from docs: `1` for Ethereum). Map chain IDs carefully in your integration; do not invent unsupported chains.
+For transaction analyze, `chainId` is used (example from docs: `1` for Ethereum). Map chain IDs carefully in your integration and stay within the supported network set above.
 
 ---
 
@@ -18,7 +18,7 @@ For transaction analyze, `chainId` is used (example from docs: `1` for Ethereum)
 - **Solana** — not supported
 - **Base** — not currently supported by the identified scan engine
 
-Do not document Solana or Base as live scan networks in this release.
+Solana and Base are not live scan networks in this release.
 
 ---
 

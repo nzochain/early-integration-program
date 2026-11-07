@@ -7,7 +7,7 @@ NZOChain helps developers, wallets, dApps, protocols and exchanges assess **wall
 > **Primary journey:** [NZOChain website](https://nzochain.com/) → [Early Integration Program page](https://nzochain.com/early-integration/) → this repository for technical guides.  
 > GitHub is the complementary home for public docs and examples — not a replacement for the program landing page.
 
-**Version:** 1.0.0 · **Updated:** 2026-11-07 · **Branch:** `main`
+**Version:** 1.1.0 · **Updated:** 2026-11-07 · **Branch:** `main`
 
 ---
 

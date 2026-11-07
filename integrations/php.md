@@ -93,6 +93,6 @@ php wallet_risk.php
 
 ## Quota note
 
-Each call consumes monthly B2B API quota. Do not embed keys in public repositories.
+Each call consumes monthly B2B API quota. Keep API keys in environment variables or a secret store — never in public repositories.
 
 Static validation only — no live API calls were made while authoring this guide.

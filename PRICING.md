@@ -1,8 +1,8 @@
 # Pricing
 
-**As of:** 2026-11-07 · Commercial B2B reference validated against product truth for docs release 1.0.0
+**As of:** 2026-11-07 · Commercial B2B reference validated against product truth for docs release 1.1.0
 
-This page separates **B2B (API / Developer Portal)** plans from **B2C (consumer app)** plans. Do not mix wallet/scan entitlements with API call quotas.
+This page separates **B2B (API / Developer Portal)** plans from **B2C (consumer app)** plans. Wallet and scan entitlements on the consumer app are distinct from B2B API call quotas.
 
 Official B2C pricing UI: https://app.nzochain.com/pricing  
 Developer Portal: https://developers.nzochain.com/  
@@ -19,6 +19,8 @@ Product docs: https://docs.nzochain.com/
 | Growth | $149 | 100,000 | 2,000 |
 | Business | $499 | 500,000 | 10,000 |
 | Enterprise | Custom | Under contract | Under contract |
+
+API usage is governed by the monthly quota and overage rules of each plan. Public catalog plans include defined call limits and ceilings — not unlimited API calls, unlimited security coverage, SLA 99.9% or guaranteed uptime. Features apply only within the contracted plan.
 
 ### Free — $0
 
@@ -67,14 +69,6 @@ Product docs: https://docs.nzochain.com/
 - Custom commercial terms and overage
 - Contact sales / `contact@nzochain.com`
 
-### Do not advertise
-
-- Unlimited API calls
-- Unlimited security
-- SLA 99.9%
-- Guaranteed uptime
-- Features not included in the contracted plan
-
 ---
 
 ## Quotas and behaviour (B2B)
@@ -99,7 +93,7 @@ Error reference: [api/rate-limits-and-errors.md](./api/rate-limits-and-errors.md
 
 ## B2C pricing (consumer app)
 
-Public individual plans (app surface). Monthly prices; annual billing may offer equivalent of 2 months free (pay 10, use 12) per public docs.
+Public individual plans (app surface). Prices below are the published **monthly** amounts.
 
 | Plan | Monthly price | Wallets | Scans / month | Contract analyses / month |
 |---|---:|---:|---:|---:|
@@ -108,23 +102,19 @@ Public individual plans (app surface). Monthly prices; annual billing may offer 
 | Pro | $9.99 | 10 | 2,000 | 200 |
 | Premium | $19.99 | 50 | 10,000 | 1,000 |
 
-Shared B2C notes (from public docs):
+Shared B2C notes:
 
 - On-demand scanning plus optional scheduled re-scan every **6 hours (opt-in, off by default)**.
 - Networks: Ethereum, BNB Chain, Polygon, Arbitrum.
 - Revocation requires the user to sign in their own wallet.
 - Alert channels expand by plan (email → push → Telegram / extended history on higher tiers).
 
-B2C entitlements are **not** B2B API call quotas.
+B2C entitlements are **not** B2B API call quotas. **Premium** (B2C) is not the same product surface as **Business** or **Enterprise** (B2B).
+
+The live consumer checkout currently exposes monthly plans. An annual “pay 10, use 12” style benefit is not presented as an active commercial offer in this documentation until confirmed in the live pricing UI.
 
 Official UI: https://app.nzochain.com/pricing  
 Public docs: https://docs.nzochain.com/pricing/individual
-
-### Guidance for document consumers
-
-- B2C = consumer product plans in the app.
-- B2B = Developer Portal / API plans.
-- Do not equate “Premium” (B2C) with “Business” or “Enterprise” (B2B).
 
 ---
 

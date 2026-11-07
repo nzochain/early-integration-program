@@ -1,30 +1,22 @@
-# QuickNode Startup Program
+# NZOChain accepted into the QuickNode Startup Program
 
-## Status
+NZOChain has been accepted into the QuickNode Startup Program, joining an ecosystem that supports early-stage companies building Web3 products and infrastructure.
 
-NZOChain has been accepted into the QuickNode Startup Program, joining an ecosystem designed to support early-stage companies building Web3 infrastructure.
+This milestone strengthens our connection to the broader Web3 developer ecosystem as we continue developing security infrastructure for wallets, applications, protocols and other blockchain-based products.
 
-**Português:** A NZOChain foi aceite no QuickNode Startup Program, integrando o ecossistema de apoio a startups que desenvolvem soluções e infraestrutura Web3.
+Participating in the program helps NZOChain stay closer to the tools, networks and developer communities that shape modern Web3 infrastructure — while we keep shipping documented APIs, risk analysis capabilities and integration resources for teams building on supported EVM networks.
 
 ---
 
-## What this means
+## Português
 
-Acceptance into the program indicates that NZOChain is participating in QuickNode’s ecosystem for early-stage Web3 infrastructure companies.
+# NZOChain aceite no QuickNode Startup Program
 
-## What this does **not** mean
+A NZOChain foi aceite no QuickNode Startup Program, passando a integrar um ecossistema que apoia empresas em fase inicial a construir produtos e infraestrutura Web3.
 
-Do **not** interpret or communicate this status as:
+Este marco reforça a nossa ligação ao ecossistema mais amplo de developers Web3, enquanto continuamos a desenvolver infraestrutura de segurança para wallets, aplicações, protocolos e outros produtos baseados em blockchain.
 
-- QuickNode investing in NZOChain
-- QuickNode providing financing to NZOChain
-- QuickNode certifying NZOChain security
-- QuickNode commercially endorsing the NZOChain product
-- A guarantee of a specific quantity of credits or services
-
-Concrete program benefits are only described publicly when they are confirmed and authorized for disclosure.
-
-This repository does **not** publish contracts, private correspondence or program account data.
+A participação no programa aproxima a NZOChain das ferramentas, redes e comunidades de developers que moldam a infraestrutura Web3 moderna — ao mesmo tempo que mantemos APIs documentadas, capacidades de análise de risco e recursos de integração para equipas que constroem nas redes EVM suportadas.
 
 ---
 
@@ -32,3 +24,4 @@ This repository does **not** publish contracts, private correspondence or progra
 
 - [EARLY-INTEGRATION-PROGRAM.md](./EARLY-INTEGRATION-PROGRAM.md)
 - Website: https://nzochain.com/
+- Early Integration Program: https://nzochain.com/early-integration/

@@ -13,7 +13,7 @@ Este repositório público é o primeiro conjunto oficial de documentação e ex
 > **Não** é uma publicação do código-fonte proprietário, backend ou infraestrutura privada da NZOChain.  
 > Nesta fase **não** existe licença open source. Visibilidade pública não concede direitos de reutilização da propriedade intelectual da NZOChain.
 
-**Versão:** 1.0.0 · **Data:** 2026-11-07
+**Versão:** 1.1.0 · **Data:** 2026-11-07
 
 Idioma técnico principal deste repositório: [README.md](./README.md) (inglês).
 
@@ -23,8 +23,8 @@ Idioma técnico principal deste repositório: [README.md](./README.md) (inglês)
 
 A NZOChain disponibiliza análise de risco via API REST e aplicação B2C.
 
-- **RiskScore atual:** heurísticas, regras de avaliação e sinais de segurança de múltiplas fontes — **não** um modelo de IA treinado anunciado como produto.
-- **Scans:** on-demand; re-scan agendado é opt-in (intervalo de 6 horas quando disponível/ativado). Não documentar como monitoring em tempo real.
+- **RiskScore atual:** heurísticas, regras de avaliação e sinais de segurança de múltiplas fontes. Não utiliza um modelo de IA/ML treinado.
+- **Scans:** on-demand; re-scan agendado é opt-in (intervalo de 6 horas quando disponível/ativado). Não é monitorização contínua nem em tempo real.
 - **Redes suportadas pelo motor de scan identificado:** Ethereum, BNB Chain, Polygon, Arbitrum.
 - **SDK oficial:** não publicado. Integração via REST API.
 
@@ -74,7 +74,7 @@ Guia completo: [QUICKSTART.md](./QUICKSTART.md)
 
 Programa para equipas que desejam integrar, experimentar e validar os serviços de segurança da NZOChain — com documentação, exemplos e acompanhamento técnico conforme disponibilidade.
 
-Não promete financiamento, quotas especiais, SLA ou parceria comercial automática.
+O programa centra-se em integração técnica e validação. Não inclui financiamento, quotas especiais além do plano Free publicado, SLA ou parceria comercial automática.
 
 Detalhes: [EARLY-INTEGRATION-PROGRAM.md](./EARLY-INTEGRATION-PROGRAM.md)
 
@@ -84,9 +84,7 @@ Página: https://nzochain.com/early-integration/
 
 ## QuickNode Startup Program
 
-A NZOChain foi aceite no QuickNode Startup Program, integrando o ecossistema de apoio a startups que desenvolvem soluções e infraestrutura Web3.
-
-Isto **não** significa investimento, financiamento, certificação de segurança ou endosso comercial pela QuickNode.
+A NZOChain foi aceite no QuickNode Startup Program, passando a integrar um ecossistema que apoia empresas em fase inicial a construir produtos e infraestrutura Web3. Este marco reforça a ligação ao ecossistema de developers enquanto continuamos a desenvolver infraestrutura de segurança para wallets, aplicações e protocolos.
 
 Detalhes: [QUICKNODE-STARTUP-PROGRAM.md](./QUICKNODE-STARTUP-PROGRAM.md)
 
@@ -94,7 +92,7 @@ Detalhes: [QUICKNODE-STARTUP-PROGRAM.md](./QUICKNODE-STARTUP-PROGRAM.md)
 
 ## Plano de auditoria
 
-A NZOChain pretende preparar uma auditoria de segurança externa independente durante o primeiro semestre de 2027, sujeita a financiamento, receita recorrente e condições de liquidez que tornem o investimento sustentável. Nenhuma auditoria foi contratada ou agendada nesta fase.
+A NZOChain pretende realizar uma auditoria de segurança independente durante o primeiro semestre de 2027. A concretização deste objetivo dependerá da disponibilidade de financiamento, do crescimento da receita recorrente ou de um evento de liquidez que torne o investimento sustentável. A auditoria ainda não foi contratada nem agendada.
 
 Detalhes: [SECURITY-AND-ROADMAP.md](./SECURITY-AND-ROADMAP.md)
 

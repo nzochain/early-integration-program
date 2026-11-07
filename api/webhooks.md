@@ -10,7 +10,7 @@ Outbound HMAC webhooks for B2B projects.
 | `wallet.scan.completed` | **Roadmap — not live** |
 | `risk.alert` | **Roadmap — not live** |
 
-Do not treat B2C email / push / Telegram alerts as B2B webhooks.
+B2C channels such as email, push and Telegram alerts are separate from B2B outbound webhooks.
 
 Source: https://docs.nzochain.com/api/webhooks
 

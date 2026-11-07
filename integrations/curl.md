@@ -64,7 +64,7 @@ Per published API v1 contract:
 }
 ```
 
-Do not treat illustrative enum unions as a live numeric sample for a specific address.
+The enum-style values above are illustrative response shapes, not a live numeric sample for a specific address.
 
 ## Error handling
 

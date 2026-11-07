@@ -1,8 +1,8 @@
 # Product Status
 
-**As of:** 2026-11-07 · **Docs release:** 1.0.0
+**As of:** 2026-11-07 · **Docs release:** 1.1.0
 
-This page describes the publicly confirmed product state for NZOChain. Unverified claims are marked as pending and must not be treated as live features.
+This page describes the publicly confirmed product state for NZOChain. Capabilities marked as pending or roadmap are not yet available as live features.
 
 ---
 
@@ -19,19 +19,15 @@ It helps teams evaluate wallet, contract and transaction risk signals before or 
 
 ## RiskScore
 
-The current RiskScore is based on:
+The current NZOChain RiskScore uses heuristic rules and multi-source security signals. It does not rely on a trained AI/ML model.
+
+Scoring is based on:
 
 - heuristics,
 - evaluation rules,
 - security signals from multiple sources.
 
-### Do not describe the current product as
-
-- “AI-powered RiskScore”
-- “proprietary AI model”
-- “autonomous AI security engine”
-
-AI-assisted scoring may be a future evolution. It is **not** a confirmed current product capability for public marketing.
+AI-assisted scoring may appear in a future evolution of the product. It is not part of the current public product capability.
 
 ---
 
@@ -48,11 +44,8 @@ Optional monitoring when available and enabled by the user/project, with a **six
 Important facts:
 
 - Re-scan is **opt-in** and **not** enabled by default.
-- Production scheduler execution for all tenants has **not** been universally confirmed in this documentation set — treat it as a product capability that must be enabled and verified per environment, not as a guaranteed always-on service for every account.
-- Do **not** use marketing language such as:
-  - real-time monitoring
-  - continuous monitoring
-  - mempool monitoring
+- Scheduler availability should be verified per environment; it is a product capability that must be enabled, not a guaranteed always-on service for every account.
+- Risk follow-up today relies on on-demand scans and optional scheduled re-scan. This is not continuous, real-time or mempool monitoring.
 
 ---
 

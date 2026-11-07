@@ -8,13 +8,11 @@ This document separates **current** capabilities from **intentions** and **fundi
 
 ## Independent security audit (intent)
 
-**English (required wording):**
+> NZOChain intends to commission an independent security audit during the first half of 2027. Delivery of this goal depends on funding availability, recurring revenue growth or a liquidity event that makes the investment sustainable. The audit has not been contracted or scheduled.
 
-> NZOChain is targeting an independent security audit during the first half of 2027, subject to funding, recurring revenue and liquidity conditions that make the investment sustainable. No audit has been contracted or scheduled at this stage.
+**Português:**
 
-**Português (mesmo grau de compromisso):**
-
-> A NZOChain pretende uma auditoria de segurança externa independente durante o primeiro semestre de 2027, sujeita a financiamento, receita recorrente e condições de liquidez que tornem o investimento sustentável. Nenhuma auditoria foi contratada ou agendada nesta fase.
+> A NZOChain pretende realizar uma auditoria de segurança independente durante o primeiro semestre de 2027. A concretização deste objetivo dependerá da disponibilidade de financiamento, do crescimento da receita recorrente ou de um evento de liquidez que torne o investimento sustentável. A auditoria ainda não foi contratada nem agendada.
 
 Conditions that may enable the audit investment include, for example:
 
@@ -22,12 +20,7 @@ Conditions that may enable the audit investment include, for example:
 - A liquidity event
 - Financing or resource availability that justifies the spend
 
-### Do not describe this as
-
-- A completed audit
-- A contracted audit
-- A certification
-- A security guarantee
+This statement describes intent only. It is not a completed audit, a contracted engagement, a certification or a security guarantee.
 
 ---
 
@@ -60,9 +53,9 @@ Conditions that may enable the audit investment include, for example:
 
 - Independent external security audit (H1 2027 target — conditional)
 - Enterprise commercial packaging beyond the public catalog
-- Any SLA / uptime commitments (not advertised in the public catalog)
+- Any SLA / uptime commitments (not part of the public catalog)
 
-Precise feature ship dates that are not approved must not be announced here.
+Ship dates are published only when they are approved for public communication.
 
 ---
 

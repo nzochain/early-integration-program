@@ -16,14 +16,7 @@ Program page: https://nzochain.com/early-integration/
 - Joint feedback and product improvement loops
 - Possibility of evolving into a commercial relationship when both sides agree
 
-### What we do **not** promise
-
-- Financial support or grants
-- Special free quotas beyond the published Free plan
-- SLA guarantees
-- Free security audits
-- Automatic approval into any partnership
-- Guaranteed commercial deals
+Participation focuses on technical integration and validation. The program does not include financial support or grants, special free quotas beyond the published Free plan, SLA guarantees, free security audits, automatic partnership approval or guaranteed commercial deals.
 
 ---
 
