@@ -1,6 +1,11 @@
 # NZOChain — Early Integration Program
 
-Explore, integre e construa com a NZOChain — infraestrutura de segurança Web3 pensada para ajudar developers e organizações a avaliar riscos de carteiras, contratos e transações através de APIs REST.
+**Documentação pública e exemplos de integração REST da infraestrutura de segurança Web3 NZOChain.**
+
+Explore, integre e construa com a NZOChain — análise de risco de carteiras, contratos e transações via API REST.
+
+> **Percurso principal:** [site NZOChain](https://nzochain.com/) → [página Early Integration](https://nzochain.com/early-integration/) → este repositório para guias técnicos.  
+> O GitHub é o destino complementar de documentação — não substitui a página local do programa.
 
 Este repositório público é o primeiro conjunto oficial de documentação e exemplos para equipas que pretendem testar e integrar a NZOChain em wallets, dApps, protocolos, exchanges e outros produtos Web3.
 

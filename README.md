@@ -1,68 +1,87 @@
-# NZOChain — Early Integration Program
+# NZOChain Early Integration Program
 
-Explore, integrate and build with NZOChain, a Web3 security infrastructure designed to help developers and organizations assess wallet, contract and transaction risks through REST APIs.
+**Public documentation and REST API integration examples for NZOChain Web3 security infrastructure.**
 
-This public repository is the first official documentation and example set for teams that want to evaluate and integrate NZOChain into wallets, dApps, protocols, exchanges and other Web3 products.
+NZOChain helps developers, wallets, dApps, protocols and exchanges assess **wallet risk**, **smart-contract risk** and **transaction risk** on supported EVM networks through a documented REST API.
+
+> **Primary journey:** [NZOChain website](https://nzochain.com/) → [Early Integration Program page](https://nzochain.com/early-integration/) → this repository for technical guides.  
+> GitHub is the complementary home for public docs and examples — not a replacement for the program landing page.
+
+**Version:** 1.0.0 · **Updated:** 2026-11-07 · **Branch:** `main`
+
+---
+
+## What you will find here
+
+| Area | Contents |
+|---|---|
+| Product status | Honest current capabilities and limitations |
+| Pricing | B2B API plans and B2C consumer plans |
+| Quickstart | First authenticated API call |
+| Integrations | cURL, JavaScript/TypeScript, Python, PHP, Go |
+| Use cases | Wallet scan, contracts, transactions, simulation, approvals |
+| API reference notes | Auth, networks, rate limits, webhooks |
+| Program info | How to join Early Integration; QuickNode Startup status |
 
 > **Scope:** documentation, integration examples and public resources only.  
 > This is **not** a release of NZOChain proprietary source code, backend systems or private infrastructure.  
-> No open-source license is granted in this phase. Public visibility does not mean reuse rights over NZOChain intellectual property.
-
-**Version:** 1.0.0 · **Date:** 2026-11-07 · **Branch target:** `main`
+> No open-source license is granted in this phase. Public visibility does not grant reuse rights over NZOChain intellectual property.
 
 ---
 
-## What this program is
-
-The Early Integration Program brings NZOChain closer to teams that want to test available security capabilities and validate real product use cases before a deeper commercial relationship.
-
-You can:
-
-- Learn the current product status with honest limitations.
-- Call the public REST API with language-specific examples.
-- Review pricing, quotas and rate-limit behaviour.
-- Explore wallet, contract, transaction and approval-related workflows.
-- Contact the team to collaborate on integration feedback.
-
----
-
-## Confirmed capabilities
-
-Available according to plan and configuration (see [PRICING.md](./PRICING.md) and [PRODUCT-STATUS.md](./PRODUCT-STATUS.md)):
+## Confirmed capabilities (by plan)
 
 | Capability | Notes |
 |---|---|
-| Wallet risk scanning | On-demand analysis via REST API |
-| Contract risk analysis | On-demand analysis via REST API |
+| Wallet risk scanning | On-demand REST analysis |
+| Contract risk analysis | On-demand REST analysis |
 | Transaction analysis | Transaction Firewall — Starter and above |
-| Transaction simulation | Plan quota + external simulation configuration when applicable |
-| Threat intelligence | Growth and above (standard / full by plan) |
-| Approval risk review & user-authorized revocation | User must authorize revocation in their wallet |
-| REST API integration | Official integration path — **no official SDK published** |
+| Transaction simulation | Plan quota; may use Tenderly when configured |
+| Threat intelligence | Growth and above (tiered) |
+| Approval risk review & user-authorized revocation | User must sign in their wallet |
+| REST API | Official path — **no official SDK published** |
 
-Conditional features are **not** universal. Always check plan entitlements.
+Conditional features are not universal. See [PRICING.md](./PRICING.md) and [PRODUCT-STATUS.md](./PRODUCT-STATUS.md).
+
+**Supported scan networks:** Ethereum · BNB Chain · Polygon · Arbitrum  
+**Not** documented as supported: Solana, Base.
 
 ---
 
-## Official links
-
-Confirm these public surfaces before integrating:
+## Official public surfaces
 
 | Resource | URL |
 |---|---|
 | Website | https://nzochain.com/ |
+| Early Integration Program (presentation) | https://nzochain.com/early-integration/ |
 | Developer Portal | https://developers.nzochain.com/ |
-| Documentation | https://docs.nzochain.com/ |
-| API | https://api.nzochain.com/ |
-| B2C App | https://app.nzochain.com/ |
-| Early Integration page | https://nzochain.com/early-integration/ |
+| Product documentation | https://docs.nzochain.com/ |
+| API base | https://api.nzochain.com/ |
+| Consumer app | https://app.nzochain.com/ |
 | This repository | https://github.com/nzochain/early-integration-program |
 
 Portuguese overview: [README.pt-BR.md](./README.pt-BR.md)
 
 ---
 
-## Navigation
+## Start in five minutes
+
+1. Create a project in the [Developer Portal](https://developers.nzochain.com/).
+2. Generate an API key (`X-API-Key`) — never commit real keys.
+3. Call wallet risk:
+
+```bash
+curl -sS -X POST "https://api.nzochain.com/api/v1/wallets/risk?lang=en" \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: YOUR_NZOCHAIN_API_KEY" \
+  -d '{"wallet":"0xYOUR_WALLET_ADDRESS","network":"ethereum"}'
+```
+
+Full guide: [QUICKSTART.md](./QUICKSTART.md)
+
+---
+
+## Documentation map
 
 | Topic | Document |
 |---|---|
@@ -98,11 +117,24 @@ Portuguese overview: [README.pt-BR.md](./README.pt-BR.md)
 
 ---
 
-## Security notice for contributors and readers
+## Topics (for discovery)
 
-Never publish real API keys, tokens, passwords, `.env` values, private RPCs, customer logs or personal data in issues, PRs or forks.
+Useful search terms that describe this repository honestly:
 
-Use placeholders only, for example:
+- Web3 security API documentation
+- Wallet risk scoring (EVM)
+- Smart contract risk analysis
+- Transaction firewall / simulation notes
+- Approval revocation (user-authorized)
+- Early Integration Program for NZOChain
+
+This repository is structured so documentation and examples can be found by developers, search engines and AI tools that index public GitHub content. **No ranking or indexing outcome is promised.**
+
+---
+
+## Security notice
+
+Never publish real API keys, tokens, passwords, `.env` values, private RPCs, customer logs or personal data.
 
 ```bash
 NZOCHAIN_API_KEY=YOUR_NZOCHAIN_API_KEY
@@ -113,4 +145,5 @@ NZOCHAIN_API_KEY=YOUR_NZOCHAIN_API_KEY
 ## Contact
 
 **Email:** contact@nzochain.com  
-**Suggested subject:** `NZOChain Early Integration Program`
+**Suggested subject:** `NZOChain Early Integration Program`  
+**Program page:** https://nzochain.com/early-integration/
