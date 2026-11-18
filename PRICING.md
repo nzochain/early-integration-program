@@ -64,7 +64,7 @@ API usage is governed by the monthly quota and overage rules of each plan. Publi
 
 - Quotas set by contract
 - Transaction Firewall
-- Simulation with Tenderly when configured
+- Transaction simulation per contract; live platform simulation when available, otherwise static/degraded analysis
 - Threat Intelligence multi-source in **pilot-grade** modality
 - Custom commercial terms and overage
 - Contact sales / `contact@nzochain.com`

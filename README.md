@@ -19,9 +19,9 @@ NZOChain helps developers, wallets, dApps, protocols and exchanges assess **wall
 | Pricing | B2B API plans and B2C consumer plans |
 | Quickstart | First authenticated API call |
 | Integrations | cURL, JavaScript/TypeScript, Python, PHP, Go |
-| Use cases | Wallet scan, contracts, transactions, simulation, approvals |
+| Use cases | Wallet scan, contracts, transactions, simulation, approvals, forensic triage |
 | API reference notes | Auth, networks, rate limits, webhooks |
-| Program info | How to join Early Integration; QuickNode Startup status |
+| Program info | How to join Early Integration |
 
 > **Scope:** documentation, integration examples and public resources only.  
 > This is **not** a release of NZOChain proprietary source code, backend systems or private infrastructure.  
@@ -36,7 +36,7 @@ NZOChain helps developers, wallets, dApps, protocols and exchanges assess **wall
 | Wallet risk scanning | On-demand REST analysis |
 | Contract risk analysis | On-demand REST analysis |
 | Transaction analysis | Transaction Firewall — Starter and above |
-| Transaction simulation | Plan quota; may use Tenderly when configured |
+| Transaction simulation | Plan quota; live platform simulation when available, otherwise static/degraded analysis |
 | Threat intelligence | Growth and above (tiered) |
 | Approval risk review & user-authorized revocation | User must sign in their wallet |
 | REST API | Official path — **no official SDK published** |
@@ -95,7 +95,6 @@ Full guide: [QUICKSTART.md](./QUICKSTART.md)
 | Rate limits & errors | [api/rate-limits-and-errors.md](./api/rate-limits-and-errors.md) |
 | Webhooks | [api/webhooks.md](./api/webhooks.md) |
 | Early Integration Program | [EARLY-INTEGRATION-PROGRAM.md](./EARLY-INTEGRATION-PROGRAM.md) |
-| QuickNode Startup Program | [QUICKNODE-STARTUP-PROGRAM.md](./QUICKNODE-STARTUP-PROGRAM.md) |
 | Security & roadmap | [SECURITY-AND-ROADMAP.md](./SECURITY-AND-ROADMAP.md) |
 | Contributing | [CONTRIBUTING.md](./CONTRIBUTING.md) |
 
@@ -114,6 +113,7 @@ Full guide: [QUICKSTART.md](./QUICKSTART.md)
 - [Transaction analysis](./use-cases/transaction-analysis.md)
 - [Transaction simulation](./use-cases/transaction-simulation.md)
 - [Approval revocation](./use-cases/approval-revocation.md)
+- [Forensic analysis (consumer)](./use-cases/forensic-analysis.md)
 
 ---
 
@@ -125,6 +125,7 @@ Useful search terms that describe this repository honestly:
 - Wallet risk scoring (EVM)
 - Smart contract risk analysis
 - Transaction firewall / simulation notes
+- Consumer forensic triage (90-day advisory window)
 - Approval revocation (user-authorized)
 - Early Integration Program for NZOChain
 
