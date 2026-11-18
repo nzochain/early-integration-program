@@ -1,6 +1,16 @@
 # Integrations
 
-Educational examples for calling the NZOChain **REST API**. There is **no official SDK** in this release.
+Educational examples for **your backend** calling the NZOChain **REST API**. There is **no official SDK** in this release.
+
+This section documents **how clients integrate with NZOChain** — keys, scopes, endpoints and webhooks — not internal platform suppliers.
+
+## Connect your application
+
+1. Create a project at https://developers.nzochain.com/
+2. Generate an API key and store it as a secret (`NZOCHAIN_API_KEY` in examples).
+3. Restrict [scopes](../api/authentication.md) to the minimum required for your routes.
+4. Call `https://api.nzochain.com` from **server-side** code only (never expose keys in browser bundles).
+5. Optionally register [webhooks](../api/webhooks.md) for supported events (e.g. `revocation.completed`).
 
 Base URL: `https://api.nzochain.com`  
 Auth header: `X-API-Key: YOUR_NZOCHAIN_API_KEY`  

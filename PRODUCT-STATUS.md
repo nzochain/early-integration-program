@@ -76,10 +76,11 @@ See [api/supported-networks.md](./api/supported-networks.md).
 | Wallet risk (API) | Available — Free plan and above |
 | Contract risk (API) | Available — Free plan and above |
 | Transaction analysis (Transaction Firewall) | Available — Starter and above |
-| Transaction simulation | Available by plan quota; may depend on external simulation configuration (e.g. Tenderly) when configured |
+| Transaction simulation | Available by plan quota; live platform simulation when available, otherwise static/degraded analysis |
 | Threat intelligence | Growth (standard) / Business+ (full) — Enterprise pilot-grade multi-source by contract |
 | Approval risk review | Available in product flows |
 | User-authorized approval revocation | Available — user must sign in their wallet; NZOChain does not revoke without authorization |
+| Consumer forensic triage (90-day advisory window) | Available on app — https://app.nzochain.com/forensic ; see [use-cases/forensic-analysis.md](./use-cases/forensic-analysis.md) |
 | B2B webhooks | Live event confirmed: `revocation.completed` |
 | Official SDK | **Not published** — integrate via REST API |
 | Open-source proprietary backend | **Not published** |

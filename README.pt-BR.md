@@ -62,7 +62,7 @@ Guia completo: [QUICKSTART.md](./QUICKSTART.md)
 | Tema | Documento |
 |---|---|
 | Integrações | [integrations/README.md](./integrations/README.md) |
-| Casos de uso | [use-cases/](./use-cases/) |
+| Casos de uso | [use-cases/](./use-cases/) (incl. [análise forense](./use-cases/forensic-analysis.md)) |
 | Autenticação | [api/authentication.md](./api/authentication.md) |
 | Redes | [api/supported-networks.md](./api/supported-networks.md) |
 | Rate limits | [api/rate-limits-and-errors.md](./api/rate-limits-and-errors.md) |
@@ -82,11 +82,15 @@ Página: https://nzochain.com/early-integration/
 
 ---
 
-## QuickNode Startup Program
+A NZOChain pode participar em **programas de ecossistema externos** voltados a builders Web3 em fase inicial. Essa participação é independente do Early Integration e **não** altera quotas da API, SLAs ou termos comerciais, salvo acordo explícito por escrito.
 
-A NZOChain foi aceite no QuickNode Startup Program, passando a integrar um ecossistema que apoia empresas em fase inicial a construir produtos e infraestrutura Web3. Este marco reforça a ligação ao ecossistema de developers enquanto continuamos a desenvolver infraestrutura de segurança para wallets, aplicações e protocolos.
+---
 
-Detalhes: [QUICKNODE-STARTUP-PROGRAM.md](./QUICKNODE-STARTUP-PROGRAM.md)
+## Caso de uso: análise forense (B2C)
+
+Triagem advisory para utilizadores que suspeitam de drenagem de carteira — janela de **90 dias**, página pública e documentação de produto (não substitui prova legal nem recuperação de fundos).
+
+Detalhes: [use-cases/forensic-analysis.md](./use-cases/forensic-analysis.md) · App: https://app.nzochain.com/forensic
 
 ---
 

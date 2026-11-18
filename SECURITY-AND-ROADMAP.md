@@ -31,7 +31,7 @@ This statement describes intent only. It is not a completed audit, a contracted 
 - Wallet risk scanning (API + app flows)
 - Contract risk analysis
 - Transaction analysis (Transaction Firewall) on eligible B2B plans
-- Transaction simulation on eligible plans (live path may depend on Tenderly configuration; otherwise static / degraded analysis)
+- Transaction simulation on eligible plans (live platform simulation when available; otherwise static / degraded analysis)
 - Threat intelligence on Growth+ plans (standard / full by tier; Enterprise pilot-grade multi-source by contract)
 - Approval risk review and **user-authorized** revocation
 - B2B webhook event: `revocation.completed`

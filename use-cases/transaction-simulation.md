@@ -38,13 +38,11 @@ Source: https://docs.nzochain.com/api/v1
 
 ---
 
-## External dependency (Tenderly)
+## Simulation behaviour
 
-- **Live** simulation requires **Tenderly** when configured.
-- Without Tenderly (or if the live call fails), the API returns **static / degraded** analysis.
+- The platform runs **live platform simulation** when the service is available for the request context.
+- If live simulation cannot run (or the live call fails), the API returns **static / degraded** analysis — still advisory.
 - Do **not** guarantee successful simulation for every contract or network.
-
-Enterprise docs may reference Tenderly when configured under contract.
 
 ---
 
